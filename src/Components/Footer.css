@@ -32,6 +32,11 @@ footer h2 {
 .social-icons a:hover {
   background: #345bd1;
 }
+footer p {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  
+}
 @media (max-width: 576px) {
   footer h2 {
     font-size: 1.2rem;
