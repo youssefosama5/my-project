@@ -129,6 +129,7 @@ const BookingPage = () => {
               alt={movie.title}
             />
             <h2>{movie.title}</h2>
+             <p><strong>Date & Time:</strong> 20/09/2025 - 07:30 PM</p>
             <p><strong>Cinema:</strong> CineFlex Grand Hall</p>
             <p><strong>Seats:</strong> {selectedSeats.join(", ") || "None"}</p>
           </div>

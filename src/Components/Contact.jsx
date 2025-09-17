@@ -35,11 +35,11 @@ export default function Contact() {
           <p>Cinema City, 10 Nile Avenue, Zamalek, Cairo, Egypt</p>
         </div>
         <div className="our-details">
-          <h4> <i class="fa-solid fa-phone"></i> Call Us</h4>
+          <h4> <i className="fa-solid fa-phone"></i> Call Us</h4>
           <p>(+20)15555555555</p>
         </div>
         <div className="our-details">
-          <h4><i class="fa-solid fa-envelope"></i> Email Us</h4>
+          <h4><i className="fa-solid fa-envelope"></i> Email Us</h4>
           <p>cinemacity@gmail.com</p>
         </div>
         <img src={Cinema} alt="The look of cinema" />
