@@ -1,0 +1,85 @@
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem; 
+  padding: 1.25rem;
+}
+
+.movie-card {
+  background: #111;
+  color: #fff;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+  height: 100%; 
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+
+.movie-info {
+  padding: 0.625rem;
+  color: #fff;
+}
+
+.movie-info h3 {
+  font-size: 1.125rem;
+  margin: 0.3125rem 0;
+}
+
+.movie-info p {
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.details-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4b0082;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #360061;
+}
+
+@media (max-width: 1200px) {
+  .movies-grid {
+    grid-template-columns: repeat(3, 1fr); /
+  }
+}
+
+@media (max-width: 992px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: 1fr; 
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .movie-info h3 {
+    font-size: 1rem;
+  }
+  .movie-info p {
+    font-size: 0.8rem;
+  }
+  .details-btn {
+    padding: 0.4rem 0.8rem;
+    font-size:0.75rem;
+}
+}
