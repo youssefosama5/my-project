@@ -9,7 +9,7 @@
   };
     return (
         <>
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom position-fixed w-100 top-0 z-3">
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 top-0 z-3">
   <div className="container-fluid">
     {/* <img src={Logo} alt="" width={"20rem"}/> */}
     <button
