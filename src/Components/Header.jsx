@@ -27,7 +27,7 @@ export default function Header () {
           <a className="nav-link active px-3 ms-5" href="#">Home</a>
         </li>
           <li className="nav-item">
-          <a className="nav-link px-3" href="#">Film</a>
+          <a className="nav-link px-3" href="#Films">Films</a>
         </li>
           <li className="nav-item">
           <a className="nav-link px-3" href="#About">About</a>

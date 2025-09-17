@@ -24,7 +24,7 @@ const MovieDetails = () => {
 
   if (!movie) return <div>Loading...</div>;
 
-  // دالة التنقل لصفحة الحجز
+
   const goToBooking = () => {
     navigate(`/booking/${movie.id}`, { state: { movie } });
   };
@@ -32,7 +32,6 @@ const MovieDetails = () => {
   return (
     <div className="movie-details">
 
-      {/* صورة واحدة فقط */}
       <div className="movie-details__image-container">
         <img
           className="movie-details__image"
@@ -41,7 +40,6 @@ const MovieDetails = () => {
         />
       </div>
 
-      {/* معلومات الفيلم */}
       <div className="movie-details__info">
         <h1 className="movie-details__title">{movie.title}</h1>
         <div className="movie-details__meta">
@@ -54,13 +52,11 @@ const MovieDetails = () => {
         </div>
       </div>
 
-      {/* Synopsis */}
       <div className="movie-details__synopsis">
         <h2>Synopsis</h2>
         <p>{movie.overview}</p>
       </div>
 
-      {/* Cast */}
       <div className="movie-details__cast">
         <h2>Main Cast</h2>
         <div className="movie-details__cast-grid">
@@ -81,7 +77,6 @@ const MovieDetails = () => {
         </div>
       </div>
 
-      {/* زر الحجز الكبير */}
       <div className="movie-details__book-bottom">
         <button className="movie-details__big-book-btn" onClick={goToBooking}>
           Book Your Ticket Now

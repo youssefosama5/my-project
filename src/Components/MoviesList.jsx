@@ -14,7 +14,9 @@ const MoviesList = () => {
     }, []);
 
     return (
-        <div className="movies-grid">
+        <>
+        <h2 id="Films">Our Movies</h2>
+        <div className="movies-grid" >
             {movies.map((movie) => (
                 <div key={movie.id} className="movie-card">
                     <img
@@ -30,6 +32,7 @@ const MoviesList = () => {
                 </div>
             ))}
         </div>
+        </>
     );
 };
 

@@ -15,24 +15,26 @@
   transition: transform 0.2s ease;
   height: 100%; 
 }
-
+.movie-card:hover {
+  transform: scale(1.05);
+}
 .movie-card img {
   width: 100%;
   display: block;
 }
 
 .movie-info {
-  padding: 0.625rem;
+  padding:10px;
   color: #fff;
 }
 
 .movie-info h3 {
-  font-size: 1.125rem;
-  margin: 0.3125rem 0;
+  font-size: 20px;
+  margin: 5px 0;
 }
 
 .movie-info p {
-  font-size: 0.875rem;
+  font-size: 14px;
   color: #aaa;
 }
 
