@@ -26,10 +26,8 @@ function App() {
           }
         />
 
-        {/* تفاصيل الفيلم */}
         <Route path="/movie/:id" element={<MovieDetails />} />
 
-        {/* صفحة الحجز */}
         <Route path="/booking/:id" element={<BookingPage />} />
       </Routes>
     </Router>
