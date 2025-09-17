@@ -12,8 +12,7 @@ export default function Footer () {
       <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
       <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
     </div>
-    <p>© 2025 Youssef Osama & Badr Ibrahim </p>
-    <p>All rights reserved.</p>
+    <p>© 2025 Youssef Osama. & Badr Ibrahim. All rights reserved.</p>
   </footer>
         </>
     )
