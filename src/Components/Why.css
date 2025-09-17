@@ -280,3 +280,18 @@ padding: 0 16px;
     height:12px;
 }
 }
+@media (max-width: 1023px){
+  .why-us {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "content";
+  }
+  .content {
+    grid-area: content;
+  }
+  .image-box {
+    grid-area:image;
+}
+}
+
