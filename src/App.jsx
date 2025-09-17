@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import React, { useState } from "react";
 import './App.css'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
@@ -7,9 +8,12 @@ import Footer from './Components/Footer'
 import MoviesList from './Components/MoviesList'
 import MovieDetails from './Components/MovieDetails'
 import BookingPage from './Components/BookingPage'
+import Nav from './Components/Nav'
+
 
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState("")
   return (
     <Router>
       <Routes>
@@ -17,8 +21,13 @@ function App() {
           path="/"
           element={
             <>
-              <Header />
-              <MoviesList />
+            {/* <Nav /> */}
+            <Nav setSearchTerm={setSearchTerm} />
+            <Header />
+      <MoviesList searchTerm={searchTerm} />
+
+              
+              {/* <MoviesList /> */}
               <Why />
               <Contact />
               <Footer />

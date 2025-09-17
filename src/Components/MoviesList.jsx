@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./MoviesList.css";
-import MovieDetails from "./MovieDetails";
 
 const MoviesList = () => {
     const [movies, setMovies] = useState([]);
@@ -13,6 +12,7 @@ const MoviesList = () => {
             .catch((err) => console.error(err));
     }, []);
 
+    
     return (
         <>
         <h2 id="Films">Our Movies</h2>
