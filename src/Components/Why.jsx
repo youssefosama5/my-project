@@ -4,8 +4,10 @@ import "./Why.css"
 import photo1 from "../assets/photo1.jpg"
 import photo2 from "../assets/photo2.jpg"
 import photo3 from "../assets/photo3.jpg"
+    import photo4 from "../assets/photo4.jpg"
+
 export default function Why() {
-    const images = [photo1, photo2, photo3];
+    const images = [photo1, photo2, photo3, photo4];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -48,6 +50,7 @@ export default function Why() {
   <span onClick={() => goToSlide(0)} className={"dot " + (currentIndex===0 ? "active":"")} > </span>
   <span onClick={() => goToSlide(1)} className={"dot " + (currentIndex===1 ? "active":"")} > </span>
   <span onClick={() => goToSlide(2)} className={"dot " + (currentIndex===2 ? "active":"")} > </span>
+  <span onClick={() => goToSlide(3)} className={"dot " + (currentIndex===2 ? "active":"")} > </span>
       </div>
       </div>
  </div>

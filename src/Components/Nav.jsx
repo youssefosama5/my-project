@@ -1,4 +1,5 @@
     import React, { useState } from "react";
+    // import Logo from "../assets/Logo.jpg"
 
  export default function Nav ({ setSearchTerm }) {
   const [input, setInput] = useState("");
@@ -11,7 +12,6 @@
         <>
 <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 top-0 z-3">
   <div className="container-fluid">
-    {/* <img src={Logo} alt="" width={"20rem"}/> */}
     <button
       className="navbar-toggler"
       type="button"
@@ -26,6 +26,8 @@
 
     <div className="collapse navbar-collapse" id="navbarContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-5 ps-2">
+            {/* <img src={Logo} alt="" width={"50rem"}/> */}
+
         <li className="nav-item">
           <a className="nav-link active px-3 ms-5" href="#">Home</a>
         </li>
