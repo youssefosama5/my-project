@@ -27,7 +27,7 @@ const MoviesList = ({ searchTerm }) => {
 
   return (
     <>
-      <h2 id="Films">Our Movies</h2>
+      <h2 id="Films">Dream Cinema Movies</h2>
       <div className="movies-grid">
         {filteredMovies.length > 0 ? (
           filteredMovies.map((movie) => (
