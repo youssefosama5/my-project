@@ -3,7 +3,7 @@ export default function Footer () {
     return (
         <>
          <footer id="social">
-          <h2>Our Social Media</h2>
+          <h2>Dream Cinema - Social Media</h2>
     <div class="social-icons">
       <a href="https://www.x.com" target="_blank"><i className="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com" target="_blank"><i className="fab fa-instagram"></i></a>

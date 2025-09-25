@@ -21,7 +21,7 @@ export default function Why() {
   };
   return (
     <>
-    <h2>Why Choose Us</h2>
+    <h2>Why Choose Dream Cinema</h2>
   <div className="why-us" id="About">
     <div className="content">
   

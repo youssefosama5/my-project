@@ -25,14 +25,14 @@ export default function Contact() {
                     </form>
                 </div>
                 <div className="details">
-                     <h3>Our Details</h3>
+                     <h3>Dream Cinema Details</h3>
         <p>
           Reach out to us through our direct contact options or connect with us
           on social media.
         </p>
                     <div className="our-details">
           <h4><i className="fa-solid fa-location-dot"></i> Visit Us</h4>
-          <p>Cinema City, 10 Nile Avenue, Zamalek, Cairo, Egypt</p>
+          <p>Dream Cinema, 10 Nile Avenue, Zamalek, Cairo, Egypt</p>
         </div>
         <div className="our-details">
           <h4> <i className="fa-solid fa-phone"></i> Call Us</h4>
@@ -40,7 +40,7 @@ export default function Contact() {
         </div>
         <div className="our-details">
           <h4><i className="fa-solid fa-envelope"></i> Email Us</h4>
-          <p>cinemacity@gmail.com</p>
+          <p>dreamcinema@gmail.com</p>
         </div>
         <img src={Cinema} alt="The look of cinema" />
                 </div>
